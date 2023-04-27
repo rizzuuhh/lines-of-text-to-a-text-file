@@ -12,7 +12,8 @@ with open('mylife.txt', 'w') as f:
         # Get a line of text from the user
         line = input("\033[35m\nEnter line: ")
        
-# Write the entered line to the file
+        # Write the entered line to the file
+        f.write(line + '\n')
         
 # Ask if the user wants to enter more lines
        
