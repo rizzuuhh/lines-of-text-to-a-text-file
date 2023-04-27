@@ -1,4 +1,6 @@
 # Import the required modules for the design of this program
+import os
+import pyfiglet
 
 # print a welcome words for user
 
