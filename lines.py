@@ -21,3 +21,4 @@ with open('mylife.txt', 'w') as f:
             break
        
 # Print to notify the user that the file has been saved
+print(pyfiglet.figlet_format("File saved!"))
