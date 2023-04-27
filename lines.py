@@ -15,6 +15,9 @@ with open('mylife.txt', 'w') as f:
         # Write the entered line to the file
         f.write(line + '\n')
         
-# Ask if the user wants to enter more lines
+        # Ask if the user wants to enter more lines
+        more = input("\033[92mAre there more lines y/n? ")
+        if more.lower() != 'y':
+            break
        
 # Print to notify the user that the file has been saved
