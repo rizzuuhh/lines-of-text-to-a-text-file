@@ -7,9 +7,10 @@ print(pyfiglet.figlet_format("HELLO, ENTER TEXT AS MUCH AS YOU WANT"))
 
 # Open the mylife.txt file for writing
 with open('mylife.txt', 'w') as f:
-    # Ask for the for input until they say no
-  
-# Get a line of text from the user
+    # Ask user for input until they say no
+    while True:
+        # Get a line of text from the user
+        line = input("\033[35m\nEnter line: ")
        
 # Write the entered line to the file
         
