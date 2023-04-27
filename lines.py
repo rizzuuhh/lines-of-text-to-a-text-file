@@ -3,6 +3,7 @@ import os
 import pyfiglet
 
 # print a welcome words for user
+print(pyfiglet.figlet_format("HELLO, ENTER TEXT AS MUCH AS YOU WANT"))
 
 # Open the mylife.txt file for writing
 
